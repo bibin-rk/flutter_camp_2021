@@ -1,14 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class HomePage extends StatelessWidget {
+class Topbar extends StatelessWidget {
+  const Topbar({
+    Key? key,
+  }) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        body: SafeArea(
-            child: Column(
-      children:[
-        Container(
+    return Container(
       padding: EdgeInsets.symmetric(vertical: 44, horizontal: 23),
       width: double.infinity,
       color: Color(0xff0B3D2E),
