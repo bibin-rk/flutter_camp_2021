@@ -5,15 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "firstapp",
-            "request": "launch",
-            "type": "dart"
-        },
-        {
-            "name": "firstapp (profile mode)",
-            "request": "launch",
+            "name": "Flutter",
             "type": "dart",
-            "flutterMode": "profile"
+            "request": "launch",
+            "program": "lib/main.dart"
         }
+        
+      
     ]
 }
